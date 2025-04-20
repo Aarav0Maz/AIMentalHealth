@@ -1,0 +1,23 @@
+{
+  "name": "ai-mental-health",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:frontend": "playwright test frontend.spec.ts",
+    "test:backend": "playwright test backend.spec.ts",
+    "test:e2e": "playwright test e2e.spec.ts",
+    "test:api": "playwright test api-service.spec.ts",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1"
+  }
+}
